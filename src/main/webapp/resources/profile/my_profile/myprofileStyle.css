@@ -1,0 +1,430 @@
+body {
+  position: relative;
+  width:  100%;
+  height: 1000px;
+  margin: 0px;
+}
+/*begin of main window*/
+
+/*begin of edge*/
+#edgeNav {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-color: #32353A;
+  border-right: 1px solid black;
+}
+#userInfo {
+  position: absolute;
+  width: 92.8%;
+  height: 26%;
+  top: 50px;
+  margin-left: 15px;
+}
+#userInfo img {
+  position: relative;
+  width: 45%;
+  height: 60%;
+  margin-left: 24%;
+  border-radius: 100%;
+}
+#userInfo h3 {
+  position: relative;
+  /*color: black;*/
+  color: white;
+  text-align: center;
+  width: 90%;
+  transition: font-size 0.4s;
+}
+#userInfo h3:hover {
+  cursor: pointer;
+  font-size: 21px;
+  transition: font-size 0.4s;
+}
+#edgeNavbar {
+  position: relative;
+  width: 90%;
+  height: 60%;
+  top: 50%;
+}
+#edgeNavbar ul {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  left: 30px;
+  list-style: none;
+}
+#edgeNavbar ul a {
+  text-decoration: none;
+  cursor: pointer;
+}
+#edgeNavbar ul li {
+  position: relative;
+  width: 50%;
+  height: 30px;
+  margin-left: -30px;
+  padding-bottom: 30px;
+}
+#edgeNavbar ul a li .icons{
+  width: 22%;
+  height: 80%;
+}
+#edgeNavbar ul li h3{
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: 60%;
+  top: -40px;
+}
+#edgeNavbar ul a:hover h3{
+  font-size: 16.5px;
+  transition: font-size 0.2s;
+}
+#edgeNavbar ul a:hover li {
+  border-left: 2px solid white;
+}
+#edgeNavbar ul li img {
+  position: relative;
+  width: 60px;
+  height: 40px;
+  left: 10%;
+  top: 0px;
+}
+#edgeNavbar ul li h3 img {
+  position: relative;
+  width: 8%;
+  height: 0%;
+  left: 10%;
+}
+#edgeNavbar ul a:hover li h3 img {
+  transform: rotateZ(90deg);
+  transition: transform 1s;
+}
+#dropdown-content {
+  display: none;
+  position: relative;
+  width: 60%;
+  height: 30%;
+  transition: height 6s;
+  left: 24%;
+}
+#edgeNavbar ul a:hover #dropdown-content ul li {
+  padding-bottom: 2px;
+  color: white;
+  border-left: 0px solid black;
+}
+#edgeNavbar ul a:hover #dropdown-content {
+  display: block;
+  height: 130px;
+  transition: height 6s;
+}
+#edgeNavbar ul a:hover #dropdown-content ul li:hover {
+  font-size: 19px;
+  cursor: pointer;
+}
+/*end of edge*/
+
+/*begin of content*/
+#content {
+  position: absolute;
+  width: 79.62%;
+  height: 70%;
+  left: 20.2%;
+  background-color: white;
+}
+#content #statisticPart {
+  position: relative;
+  height: 85%;
+}
+
+/*begin of statistic part*/
+#chartContainer {
+  border-top: 1px dotted red;
+  position: relative;
+  margin-top: 18px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 20px;
+  height: 75%;
+}
+#content #statisticPart #inputParam {
+  position: relative;
+  width: 100%;
+  height: 23%;
+  border-top: 1px dotted red;
+}
+#content #statisticPart #inputParam #inputContent{
+  /*border-top: 1px dotted grey;*/
+  position: relative;
+  width: 90%;
+  height: 93%;
+  margin: 5px auto;
+}
+#content #statisticPart #inputParam #inputContent #stName {
+  position: relative;
+}
+#content #statisticPart #inputParam #inputContent #stName h2 {
+  position: relative;
+  text-align: center;
+  font-family: Mongolian Baiti;
+  color: blue;
+}
+#content #statisticPart #inputParam #inputContent .lContent{
+  border-bottom: 1px solid red;
+  position: relative;
+  width: 23%;
+  height: 43%;
+  float: left;
+  margin-left: 5.36%;
+}
+#content #statisticPart #inputParam #inputContent .lContent h4 {
+  position: relative;
+  width: 95px;
+  margin-right: 45px;
+}
+.lContentOkPart {
+  position: relative;
+  float: right;
+}
+#content #statisticPart #inputParam #inputContent .lContentOkPart img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  float: right;
+  top: 10px;
+  margin-left: 1%;
+  transition: width 0.3s, height 0.3s;
+}
+#report {
+  position: relative;
+  float: left;
+  margin-left: 1%;
+  margin-right: 15px;
+  bottom: 19px;
+}
+#report:hover {
+  color: grey;
+}
+#content #statisticPart #inputParam #inputContent .lContentOkPart #okButton:hover {
+  cursor: pointer;
+}
+#content #statisticPart #inputParam #inputContent .lContent select {
+  border-radius: 6px;
+  outline: 0px;
+  position: relative;
+  width: 53%;
+  height: 33px;
+  float: right;
+  top: -47px;
+  background-color: #F0F0DB;
+  transition: background-color 0.3s;
+}
+#content #statisticPart #inputParam #inputContent .lContent select:hover {
+  background-color: #9E9EA4;
+  color: white;
+  transition: 0.3s;
+}
+#content #statisticPart #inputParam #inputContent .lContent select option {
+  border-bottom-right-radius: 10px;
+}
+/*end of statistic part*/
+
+/*begin of my info div*/
+
+/*begin of main name of part*/
+#myInfoDiv #myInfoName {
+  position: relative;
+}
+#myInfoDiv #myInfoName h1 {
+  position: relative;
+  text-align: center;
+  font-family: Mongolian Baiti;
+  margin-bottom: 60px;
+}
+/*end of main name of part*/
+
+#myInfoDiv {
+  border-top: 1px dotted red;
+  border-bottom: 1px dotted red;
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+#myInfoDiv #myInfoContent {
+  border-top: 1px dotted red;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  margin: 7% auto;
+  margin-top: 9%;
+  top: -8%;
+}
+
+/*begin of picture row*/
+
+#myInfoDiv #myInfoContent #pictureRow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#myInfoDiv #myInfoContent #pictureRow #userPicture {
+  float: left;
+  border-right: 1px dotted red;
+  width: 33%;
+  height: 83.4%;
+}
+#myInfoDiv #myInfoContent #pictureRow #userPicture h3 {
+  position: relative;
+  float: left;
+  color: #808000;
+}
+#myInfoDiv #myInfoContent #pictureRow #userPicture img {
+  width: 80%;
+  transition: 0.3s;
+  height: 65%;
+  transition: 0.3s;
+  border-bottom: 1px dotted red;
+  float: left;
+  padding: 5px;
+}
+#myInfoDiv #myInfoContent #pictureRow #userPicture img:hover {
+  width: 87%;
+  transition: 0.3s;
+  height: 70%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#myInfoDiv #myInfoContent #pictureRow #pictureRowLabels{
+  float: right;
+  width: 65%;
+  height: 74%;
+}
+.labelRow {
+  position: relative;
+  height: 17%;
+}
+.labelRow label {
+  position: relative;
+  float: left;
+  width: 130px;
+  color: #808000;
+}
+.labelRow #fullnameItem {
+  position: relative;
+  width: 70%;
+  float: right;
+  border-bottom: 1px dotted red;
+  font-family: Monotype Corsiva;
+  transition: color 1s;
+}
+.labelRow #fullnameItem:hover {
+  color: red;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.labelRow #genderItem {
+  position: relative;
+  width: 70%;
+  float: right;
+  border-bottom: 1px dotted red;
+  transition: color 1s;
+}
+.labelRow #genderItem:hover {
+  color: red;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.labelRow #emailItem {
+  position: relative;
+  width: 70%;
+  float: right;
+  border-bottom: 1px dotted red;
+  transition: color 1s;
+}
+.labelRow #emailItem:hover {
+  color: red;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.labelRow #birthItem {
+  position: relative;
+  width: 70%;
+  float: right;
+  border-bottom: 1px dotted red;
+  transition: color 1s;
+}
+.labelRow #birthItem:hover {
+  color: red;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.labelRow #passportItem {
+  position: relative;
+  width: 70%;
+  float: right;
+  border-bottom: 1px dotted red;
+  transition: color 1s;
+}
+.labelRow #passportItem span {
+  color: red;
+}
+.labelRow #passportItem:hover {
+  color: red;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.labelRow #loginItem {
+  position: relative;
+  width: 70%;
+  float: right;
+  border-bottom: 1px dotted red;
+  transition: color 1s;
+}
+.labelRow #loginItem:hover {
+  color: red;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.labelRow #passwordItem {
+  position: relative;
+  width: 70%;
+  float: right;
+  border-bottom: 1px dotted red;
+  transition: color 1s;
+}
+.labelRow #passwordItem:hover {
+  color: red;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+/*begin of update link part*/
+#myInfoDiv #myInfoContent #pictureRow #pictureRowLabels .labelRow h4{
+  position: relative;
+  float: left;
+  top: 20%;
+}
+#myInfoDiv #myInfoContent #pictureRow #pictureRowLabels .labelRow h4 a{
+  color: red;
+  transition: font-size 0.5s;
+}
+#myInfoDiv #myInfoContent #pictureRow #pictureRowLabels .labelRow h4 a:hover {
+  color: #B7240C;
+  transition: color 0.5s;
+}
+#myInfoDiv #myInfoContent #pictureRow #pictureRowLabels .labelRow h4 i{
+  color: blue;
+}
+/*end of update link part*/
+
+/*end of picture row*/
+
+/*end of my info div*/
+
+/*end of content*/
+/*end of main window*/
+
+
+
+
+

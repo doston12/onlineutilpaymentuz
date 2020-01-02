@@ -1,0 +1,90 @@
+body {
+  position: relative;
+  width: 99%;
+  height: 470px;
+}
+form {
+  position: relative;
+  width: 420px;
+  height: 55%;
+  background-color: white;
+  margin: 150px auto;
+  outline: 0px;
+  border-radius: 8px;
+}
+form #inputs {
+  position: relative;
+  width: 91%;
+  height: 80%;
+  border-radius: 5px;
+  margin: auto;
+  top: 25px;
+  box-shadow: 0 0 10px blue;
+}
+form #inputs .IdInput {
+  position: relative;
+  outline: 0px;
+  border: 0px solid black;
+  border-bottom: 1px dotted red;
+  width: 90%;
+  height: 20%;
+  margin: 22px 16px;
+  top: 18px;
+}
+form #inputs .IdInput img {
+  position: relative;
+  width: 8%;
+  height: 60%;
+  top: 0px;
+  transition: width 0.5s, height 0.5s;
+  padding: 7px;
+}
+form #inputs .IdInput img:hover {
+  width: 9.5%;
+  height: 65%;
+  transition: width 0.5s, height 0.5s;
+}
+form #inputs .IdInput #loginInput {
+  position: relative;
+  width: 83%;
+  height: 92%;
+  outline: 0px;
+  border: 0px solid red;
+  float: right;
+}
+form #inputs .IdInput #passwordInput {
+  position: relative;
+  width: 83%;
+  height: 92%;
+  outline: 0px;
+  border: 0px solid red;
+  float: right;
+}
+form #inputs .IdInputButton {
+  position: relative;
+  float: right;
+  width: 100px;
+  height: 35px;
+  margin: 10px 20px;
+}
+form #inputs .IdInputButton a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+form #inputs .IdInputButton #submitButtonInput{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  outline: 0px;
+  border: 0px solid red;
+  border-radius: 5px;
+  background-color: #ADDD04;
+  top: 10px;
+}
+form #inputs .IdInputButton #submitButtonInput:hover {
+  background-color: #80B000;
+  color: white;
+  transition: background-color 0.5s, color 0.2s;
+}
