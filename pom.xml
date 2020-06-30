@@ -27,7 +27,7 @@
         <servlet.api>2.5</servlet.api>
         <org.apache.httpcomponents.client>4.3.6</org.apache.httpcomponents.client>
         <com.google.code.gson>2.4</com.google.code.gson>
-        <com.fasterxml.jackson.core>2.2.3</com.fasterxml.jackson.core>
+        <com.fasterxml.jackson.core>2.11.1</com.fasterxml.jackson.core>
         <com.fasterxml>0.6.2</com.fasterxml>
         <com.google.guava>16.0.1</com.google.guava>
         <com.googlecode.lambdaj>2.3.3</com.googlecode.lambdaj>
