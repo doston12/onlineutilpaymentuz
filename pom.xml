@@ -54,7 +54,7 @@
         <com.ibm.icu>4.8.1.1</com.ibm.icu>
         
         <tomcat.version>7.0.59</tomcat.version>
-        <junit>4.8.2</junit>
+        <junit>4.13.1</junit>
         
         <!-- Database -->
         <org.eclipse.persistence>2.5.2</org.eclipse.persistence>
