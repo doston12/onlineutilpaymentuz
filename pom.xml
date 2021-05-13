@@ -53,7 +53,7 @@
         <com.googlecode.json-simple>1.1.1</com.googlecode.json-simple>
         <com.ibm.icu>4.8.1.1</com.ibm.icu>
         
-        <tomcat.version>7.0.59</tomcat.version>
+        <tomcat.version>7.0.107</tomcat.version>
         <junit>4.8.2</junit>
         
         <!-- Database -->
