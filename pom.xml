@@ -25,7 +25,7 @@
         <com.github.cage>1.0</com.github.cage>
         <javax.servlet.api>3.1.0</javax.servlet.api>
         <servlet.api>2.5</servlet.api>
-        <org.apache.httpcomponents.client>4.3.6</org.apache.httpcomponents.client>
+        <org.apache.httpcomponents.client>4.5.13</org.apache.httpcomponents.client>
         <com.google.code.gson>2.4</com.google.code.gson>
         <com.fasterxml.jackson.core>2.2.3</com.fasterxml.jackson.core>
         <com.fasterxml>0.6.2</com.fasterxml>
