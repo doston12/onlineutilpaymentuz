@@ -40,7 +40,7 @@
         <!-- Web and services -->
         <javax>7.0</javax>
         <javax.servlet.jsp>2.1</javax.servlet.jsp>
-        <org.springframework.security>4.0.3.RELEASE</org.springframework.security>
+        <org.springframework.security>5.5.7</org.springframework.security>
         <taglibs>1.1.2</taglibs>
         <javax.servlet.jsp.jstl>1.2.1</javax.servlet.jsp.jstl>
         <commons-io>2.5</commons-io>
